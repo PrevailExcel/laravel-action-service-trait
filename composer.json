@@ -1,0 +1,47 @@
+{
+    "name": "prevailexcel/laravel-action-service-trait", 
+    "description": "A simple Laravel package to create actions, traits and services using artisan commands",
+    "keywords": [
+      "php",
+      "github",
+      "laravel",
+      "Open Source",
+      "action",
+      "service",
+      "traits",
+      "generator",
+      "command",
+      "laravel 7",
+      "laravel 8",
+      "laravel 9"
+    ],    
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "PrevailExcel\\ActionServiceTrait\\": "src/"
+        },
+        "classmap": ["src/"]
+    },
+    "authors": [
+        {
+            "name": "PrevailExcel",
+            "email": "prevailexcellent@gmail.com"
+        }
+    ],
+    "require": {      
+      "php": "^7.1|^8.0",
+      "illuminate/support": "~5.6.34|~5.7.0|~5.8.0|^6.0|^7.0|^8.0|^9.0",
+      "illuminate/console": "~5.6.34|~5.7.0|~5.8.0|^6.0|^7.0|^8.0|^9.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "PrevailExcel\\ActionServiceTrait\\ASTServiceProvider"
+        ]
+      }
+    }
+}

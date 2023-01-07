@@ -1,0 +1,18 @@
+<?php
+
+namespace {{ namespace }};
+
+/**
+ * Class {{ class }}
+ * @package App\Services
+ */
+class {{ class }}
+{
+    /**
+     * @return true
+     */
+    public function execute(){
+        //write your code here
+        return true;
+    }
+}
